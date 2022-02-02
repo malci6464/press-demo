@@ -10,6 +10,7 @@ import PressReader from "./components/PressReader.vue";
 
 export default {
   name: "App",
+
   components: {
     //HelloWorld,
     PressReader,
@@ -25,5 +26,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.test {
+  margin: 2px;
 }
 </style>
